@@ -203,7 +203,7 @@ class Calendar extends PureComponent {
         ) : null}
         {showMonthAndYearPickers ? (
           <span className={styles.monthAndYearckers}>
-            <span className={styles.monthPicker}>
+            <span className={styles.monthPicr}>
               <select
                 value={focusedDate.getMonth()}
                 onChange={e => changeShownDate(e.target.value, 'setMonth')}

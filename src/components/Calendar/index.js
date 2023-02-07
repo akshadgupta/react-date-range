@@ -248,7 +248,7 @@ class Calendar extends PureComponent {
             <i />
           </button>
         ) : null}
-      </div>
+      </div> 
     );
   };
   renderWeekdays() {
